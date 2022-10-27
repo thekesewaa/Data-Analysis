@@ -1,5 +1,4 @@
-# Correlation & Regression
-# Researcher : Maame Yaa Kesewaa
+
 examdata = read.csv('data.csv', header = T)
 library(ggplot2)
 library(afex)
@@ -113,45 +112,3 @@ summary(model4)
 anova(model4, model3)
 # From the anova test used to compare the fit of these two models, we see that the test statistic has a p value that is greater than .05, so the fit of the full model is statistically different from the fit of the reduced model. In fact, the adjusted R squared value is still at about 18%.
 # Satisfaction with the product is related to whether the customer prefers fruit-free chocolate, whether the customer health consciousness is high or low or if the customer is has been in a reelatonship for long.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

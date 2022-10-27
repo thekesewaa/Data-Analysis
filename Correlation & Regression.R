@@ -1,4 +1,3 @@
-
 examdata = read.csv('data.csv', header = T)
 library(ggplot2)
 library(afex)

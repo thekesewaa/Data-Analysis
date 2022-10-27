@@ -1,3 +1,5 @@
+# Correlation & Regression
+# Researcher : Maame Yaa Kesewaa
 examdata = read.csv('data.csv', header = T)
 library(ggplot2)
 library(afex)
